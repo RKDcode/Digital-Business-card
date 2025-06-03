@@ -1,3 +1,32 @@
+a{
+    text-align: center;
+    color: #1D014B;
+    text-decoration: none;
+    height: 20px;
+    width: 260px;
+    display: block;
+    padding: 12px 25px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 8px;
+    background: #CEB1FF;
+}
+a:hover {
+    background-color: #926cd4;
+    color: #ffc8e3;
+}
+a:active {
+    background-color: #603aa3;
+    color: #ffc8e3;
+    box-shadow: 1px 1px 2px #1D014B inset;
+}
+#whatsapp-code {
+    margin: 20px auto;
+    display: flex;
+    width: 310px;
+    border-radius: 30px;
+}
+
 .brand-logo{
     display: block;
     width: 120px;
@@ -18,8 +47,7 @@
     color: #1D014B;
     text-align: center;
     background: #FFB2D7;
-    display: block;
-    width: 200px;
+    width: 250px;
     height: auto;
     margin: 20px auto;
     padding: 80px 30px 20px 30px;
@@ -28,12 +56,14 @@
 
 .card-info h1{
     margin: 16px auto 0 ;
+    font-weight: 800;
     font-size: 24px;
     font-family: montserrat;
 }
 
 .card-info h2{
     margin: 4px auto;
+    font-weight: 600;
     font-size: 16px;
     font-family: montserrat;
 }
